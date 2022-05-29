@@ -1,0 +1,9 @@
+.posts-list{
+  list-style-type: none;
+}
+.posts-title{
+  text-align: center;
+  margin-top: 15px;
+  color: blue;
+  margin-bottom: 14px;
+}

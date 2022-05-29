@@ -1,0 +1,16 @@
+.sidebar{
+  color: green;
+  width: 25%;
+  border-right: 2px solid green;
+  height: 100%;
+}
+
+.sidebar-heading{
+  text-align: center;
+}
+.user__list{
+  height: 90vh;
+  overflow: auto;
+  margin: 8px;
+  padding: 10px;
+}

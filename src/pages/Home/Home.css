@@ -1,0 +1,6 @@
+.home{
+  color: rgba(0, 0, 0, 0.8);
+  width: 75%;
+  height: 100vh;
+  overflow: auto;
+}
