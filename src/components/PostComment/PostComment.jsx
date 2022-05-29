@@ -15,7 +15,7 @@ const PostComment = () => {
     fetch(`https://jsonplaceholder.typicode.com/posts/${params.postId}`)
     .then(res=>res.json())
     .then(data => setPost(data))
-  }, [])
+  }, [params.postId]);
 
   useEffect(()=>{
     fetch(`https://jsonplaceholder.typicode.com/comments?postId=${params.postId}`)
