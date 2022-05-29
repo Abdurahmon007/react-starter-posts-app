@@ -21,7 +21,7 @@ const PostComment = () => {
     fetch(`https://jsonplaceholder.typicode.com/comments?postId=${params.postId}`)
     .then(res => res.json())
     .then(data => setComments(data));
-  },[]);
+  },[params.postId]);
 
   return (
     <div>
